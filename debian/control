@@ -1,0 +1,12 @@
+Source: ros-lunar-variant
+Section: misc
+Priority: extra
+Maintainer: Ralf Kaestner <ralf.kaestner@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: http://github.com/ethz-asl/ros-topic-variant
+Standards-Version: 3.9.2
+
+Package: ros-lunar-variant
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-variant-msgs, ros-lunar-variant-topic-test, ros-lunar-variant-topic-tools
+Description: Meta-package for the universal variant library.
