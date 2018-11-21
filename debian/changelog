@@ -1,0 +1,33 @@
+ros-melodic-variant-msgs (0.1.4-0stretch) stretch; urgency=high
+
+
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 20 Nov 2018 23:00:00 -0000
+
+ros-melodic-variant-msgs (0.1.3-0stretch) stretch; urgency=high
+
+
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Thu, 19 May 2016 22:00:00 -0000
+
+ros-melodic-variant-msgs (0.1.2-0stretch) stretch; urgency=high
+
+  * update readme with build status
+  * Contributors: Samuel Bachmann
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Wed, 18 May 2016 22:00:00 -0000
+
+ros-melodic-variant-msgs (0.1.1-0stretch) stretch; urgency=high
+
+  * Message variant tests successful
+  * Refined traits, code cleanups
+  * 
+    
+      * Created test package
+      * Moved test binaries to test package
+    
+  * Contributors: Ralf Kaestner
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Wed, 11 May 2016 22:00:00 -0000
+
+
