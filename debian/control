@@ -1,0 +1,12 @@
+Source: ros-melodic-variant-topic-tools
+Section: misc
+Priority: extra
+Maintainer: Ralf Kaestner <ralf.kaestner@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-variant-msgs
+Homepage: http://github.com/ethz-asl/ros-topic-variant
+Standards-Version: 3.9.2
+
+Package: ros-melodic-variant-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-variant-msgs
+Description: Topic tools for treating messages as variant types.
