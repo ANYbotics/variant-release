@@ -1,3 +1,30 @@
+## variant (lunar) - 0.1.5-0
+
+The packages in the `variant` repository were released into the `lunar` distro by running `/usr/bin/bloom-release variant --rosdistro lunar` on `Wed, 28 Nov 2018 08:48:11 -0000`
+
+These packages were released:
+- `variant`
+- `variant_msgs`
+- `variant_topic_test`
+- `variant_topic_tools`
+
+Version of package(s) in repository `variant`:
+
+- upstream repository: https://github.com/anybotics/variant.git
+- release repository: https://github.com/anybotics/variant-release.git
+- rosdistro version: `0.1.4-0`
+- old version: `0.1.4-0`
+- new version: `0.1.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## variant (kinetic) - 0.1.5-0
 
 The packages in the `variant` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release variant --rosdistro kinetic` on `Fri, 23 Nov 2018 14:11:30 -0000`
