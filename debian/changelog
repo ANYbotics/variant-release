@@ -1,0 +1,45 @@
+ros-noetic-variant-msgs (0.1.6-1focal) focal; urgency=high
+
+
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Tue, 05 Jan 2021 23:00:00 -0000
+
+ros-noetic-variant-msgs (0.1.5-1focal) focal; urgency=high
+
+
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Thu, 22 Nov 2018 23:00:00 -0000
+
+ros-noetic-variant-msgs (0.1.4-1focal) focal; urgency=high
+
+
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Tue, 20 Nov 2018 23:00:00 -0000
+
+ros-noetic-variant-msgs (0.1.3-1focal) focal; urgency=high
+
+
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Thu, 19 May 2016 22:00:00 -0000
+
+ros-noetic-variant-msgs (0.1.2-1focal) focal; urgency=high
+
+  * update readme with build status
+  * Contributors: Samuel Bachmann
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Wed, 18 May 2016 22:00:00 -0000
+
+ros-noetic-variant-msgs (0.1.1-1focal) focal; urgency=high
+
+  * Message variant tests successful
+  * Refined traits, code cleanups
+  * 
+    
+      * Created test package
+      * Moved test binaries to test package
+    
+  * Contributors: Ralf Kaestner
+
+ -- Samuel Bachmann <sbachmann@anybotics.com>  Wed, 11 May 2016 22:00:00 -0000
+
+
