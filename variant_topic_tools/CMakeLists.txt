@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5.1)
 project(variant_topic_tools)
 
 # Set the build type.  Options are:
@@ -146,3 +146,41 @@ install(
   PATTERN "*.h"
   PATTERN "*.tpp"
 )
+
+##########
+## Test ##
+##########
+if(CATKIN_ENABLE_TESTING)
+  find_package(catkin REQUIRED COMPONENTS
+    geometry_msgs
+    std_msgs
+  )
+
+  catkin_add_gtest(test_${PROJECT_NAME}
+    test/variant_topic_test.cpp
+    test/DataTypeTest.cpp
+    test/DataTypeRegistryTest.cpp
+    test/MD5SumTest.cpp
+    test/MessageDefinitionTest.cpp
+    test/MessageDefinitionParserTest.cpp
+    test/MessageFieldCollectionTest.cpp
+    test/MessageTest.cpp
+    test/MessageTypeParserTest.cpp
+    test/MessageTypeTest.cpp
+    test/PointerTest.cpp
+    test/SerializerTest.cpp
+    test/VariantTest.cpp
+    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/test
+  )
+
+  if(TARGET test_${PROJECT_NAME})
+    target_link_libraries( test_${PROJECT_NAME}
+      ${PROJECT_NAME}
+      ${catkin_LIBRARIES}
+    )
+    find_package(cmake_code_coverage QUIET)
+    if(cmake_code_coverage_FOUND)
+      add_gtest_coverage()
+    endif(cmake_code_coverage_FOUND)
+  endif()
+endif()
