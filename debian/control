@@ -1,0 +1,12 @@
+Source: ros-melodic-variant-topic-tools
+Section: misc
+Priority: optional
+Maintainer: Samuel Bachmann <sbachmann@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-std-msgs, ros-melodic-variant-msgs
+Homepage: http://github.com/anybotics/variant
+Standards-Version: 3.9.2
+
+Package: ros-melodic-variant-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-variant-msgs
+Description: Topic tools for treating messages as variant types.
