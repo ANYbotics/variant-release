@@ -1,0 +1,12 @@
+Source: ros-melodic-variant
+Section: misc
+Priority: optional
+Maintainer: Samuel Bachmann <sbachmann@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://github.com/anybotics/variant
+Standards-Version: 3.9.2
+
+Package: ros-melodic-variant
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-variant-msgs, ros-melodic-variant-topic-tools
+Description: Meta-package for the universal variant library.
