@@ -1,0 +1,12 @@
+Source: ros-noetic-variant-topic-tools
+Section: misc
+Priority: optional
+Maintainer: Samuel Bachmann <sbachmann@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs, ros-noetic-variant-msgs
+Homepage: http://github.com/anybotics/variant
+Standards-Version: 3.9.2
+
+Package: ros-noetic-variant-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-variant-msgs
+Description: Topic tools for treating messages as variant types.
