@@ -1,3 +1,29 @@
+## variant (melodic) - 0.1.6-1
+
+The packages in the `variant` repository were released into the `melodic` distro by running `/usr/bin/bloom-release variant --rosdistro melodic` on `Wed, 06 Jan 2021 12:31:09 -0000`
+
+These packages were released:
+- `variant`
+- `variant_msgs`
+- `variant_topic_tools`
+
+Version of package(s) in repository `variant`:
+
+- upstream repository: https://github.com/anybotics/variant.git
+- release repository: https://github.com/anybotics/variant-release.git
+- rosdistro version: `0.1.5-0`
+- old version: `0.1.5-0`
+- new version: `0.1.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## variant (noetic) - 0.1.6-1
 
 The packages in the `variant` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic variant` on `Wed, 06 Jan 2021 12:26:18 -0000`
